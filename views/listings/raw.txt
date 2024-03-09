@@ -1,0 +1,14 @@
+  <ul>
+        <% for(let listing of allListings) { %>
+            <!-- it redirect to show route based on id -->
+            <li> <a href="/listings/<%= listing._id%>"><%= listing.title %></a></li>  
+             
+        
+        <% } %>
+        
+        </ul>
+
+
+
+        
+          

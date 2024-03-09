@@ -1,0 +1,20 @@
+create new route additional file 
+
+    // let {title,description, image,price,country,location}=req.body;
+//one more easy solution is that make object key in new.ejs
+
+//  let listing=req.body.listing;//if you write only req.body then i print JSON
+//  console.log(listing);
+
+//    if(!req.body.listing){//If listing data is not exist then how can we store listing to database
+//     throw new ExpressError(400,"Send valid data for listing");
+//    }
+
+//  Now we validate req.body and its indivial fields by Joi
+// let result = listingSchema.validate(req.body);
+// console.log(result);
+// if(result.error){
+//     throw new ExpressError(400,result.error);
+// }
+
+// now we convert into middlware by making separate function for above code
